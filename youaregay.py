@@ -1,13 +1,13 @@
-# made by @DneZyeK
+# rechanged by @devvechan
 
 
 from time import sleep
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.fl(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ug(?: |$)(.*)')
 async def typewriter(typew):
-    await typew.edit("`start loading...`")
+    await typew.edit("`start analyzing the your orientation...`")
     sleep(1)
     await typew.edit("0%")
     number = 1
@@ -310,4 +310,4 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Done!`")
+    await typew.edit("`You are completely GAY! Congratulations!`")
